@@ -1,0 +1,83 @@
+@@include('_header.html')
+    <main class="main">
+        <section class="user-cabinet">
+            <div class="container">
+                <h2 class="user-cabinet__title">Личный кабинет</h2>
+                <div class="user-cabinet-row">
+                    <div class="user-cabinet-column">
+                        <a class="user-cabinet-nav-item font-md font-weight-medium active">
+                            <img src="assets/img/avatar-cabinet.svg" alt="Аватар">
+                            Учётная запись
+                        </a>
+                        <a class="user-cabinet-nav-item font-md font-weight-medium">
+                            <img src="assets/img/suitcase-cabinet.svg" alt="Кейс">
+                            Мои компании
+                        </a>
+                        <a class="user-cabinet-nav-item font-md font-weight-medium">
+                            <img src="assets/img/bag-cabinet.svg" alt="Сумка">
+                            Мои заказы
+                        </a>
+                        <a class="user-cabinet-nav-item font-md font-weight-medium">
+                            <img src="assets/img/door-cabinet.svg" alt="Выход">
+                            Выйти
+                        </a>
+                    </div>
+                    <div class="user-cabinet-column">
+                        <div class="user-cabinet-title">
+                            <p class="user-cabinet-title__title font-weight-semibold">Информация</p>
+                            <img src="assets/img/information-2.svg" alt="Информация">
+                            <p class="user-cabinet-title__hint">Подсказка</p>
+                        </div>
+                        <div class="user-cabinet-item">
+                            <label for="surname" class="registration-form-item__label font-md font-weight-medium">Ваша фамилия</label>
+                            <div class="registration-form-item__row">
+                                <img src="assets/img/avatar.svg" alt="Аватар" class="registration-form-item__icon">
+                                <input type="text" name="surname" id="surname" class="registration-form-item__input font-exlg font-weight-regular" placeholder="Чеботарев">
+                            </div>
+                        </div>
+                        <div class="user-cabinet-item">
+                            <label for="name" class="registration-form-item__label font-md font-weight-medium">Ваше имя</label>
+                            <div class="registration-form-item__row">
+                                <img src="assets/img/avatar.svg" alt="Аватар" class="registration-form-item__icon">
+                                <input type="text" name="name" id="name" class="registration-form-item__input font-exlg font-weight-regular" placeholder="Чеботарев">
+                            </div>
+                        </div>
+                        <div class="user-cabinet-item">
+                            <label for="patronymic" class="registration-form-item__label font-md font-weight-medium">Ваше отчество</label>
+                            <div class="registration-form-item__row">
+                                <img src="assets/img/avatar.svg" alt="Аватар" class="registration-form-item__icon">
+                                <input type="text" name="patronymic" id="patronymic" class="registration-form-item__input font-exlg font-weight-regular" placeholder="">
+                            </div>
+                        </div>
+                        <div class="user-cabinet-item">
+                            <label for="mail" class="registration-form-item__label font-md font-weight-medium">Электронная почта</label>
+                            <div class="registration-form-item__row">
+                                <img src="assets/img/mail-icon.svg" alt="Аватар" class="registration-form-item__icon">
+                                <input type="text" name="mail" id="mail" class="registration-form-item__input font-exlg font-weight-regular" placeholder="chebotarev20-test@yandex.ru">
+                            </div>
+                        </div>
+                        <div class="user-cabinet-item">
+                            <label for="num-1" class="registration-form-item__label font-md font-weight-medium">Ваши телефоны</label>
+                            <div class="registration-form-item__row user-cabinet-item__number-add">
+                                <button class="user-cabinet-item__number-add-btn">+ Добавить</button>
+                                <img src="assets/img/avatar.svg" alt="Аватар" class="registration-form-item__icon">
+                                <input type="text" name="num-1" id="num-1" class="registration-form-item__input font-exlg font-weight-regular" placeholder="+ 7 (926) 926–926–7">
+                            </div>
+                        </div>
+                        <div class="user-cabinet-item user-cabinet-item__number">
+                            <div class="registration-form-item__row">
+                                <img src="assets/img/avatar.svg" alt="Аватар" class="registration-form-item__icon">
+                                <input type="text" name="num-2" id="num-2" class="registration-form-item__input font-exlg font-weight-regular" placeholder="+ 7 (926) 926–926–7">
+                            </div>
+                        </div>
+                        <div class="user-cabinet-buttons">
+                            <button class="user-cabinet-buttons__btn font-weight-medium">Сохранить изменения</button>
+                            <button class="user-cabinet-buttons__btn font-weight-medium">Изменить пароль</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+@@include('_footer.html')

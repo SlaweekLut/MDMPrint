@@ -1,0 +1,137 @@
+@@include('_header.html')
+    <main class="main">
+        <div class="order-line-nav">
+            <div class="container">
+                <div class="order-line-nav__block">
+                    <p class="order-line-nav__num font-weight-medium">1</p>
+                    <p class="order-line-nav__text font-weight-medium">Корзина</p>
+                </div>
+                <div class="order-line-nav__block active">
+                    <p class="order-line-nav__num font-weight-medium">2</p>
+                    <p class="order-line-nav__text font-weight-medium">Доставка и оплата</p>
+                </div>
+                <div class="order-line-nav__block">
+                    <p class="order-line-nav__num font-weight-medium">3</p>
+                    <p class="order-line-nav__text font-weight-medium">Спасибо за заказ</p>
+                </div>
+            </div>
+        </div>
+        <section class="order-deliver">
+            <div class="container">
+                <h2 class="deliver__title">Выберите тип доставки</h2>
+                <div class="deliver-row">
+                    <div class="deliver-column">
+                        <div class="deliver-item">
+                            <p class="deliver-item__title font-weight-semibold">Курьером</p>
+                            <div class="deliver-item__info">
+                                <p class="deliver-item__company font-weight-medium">СДЭК</p>
+                                <p class="deliver-item__date font-weight-regular">08-09-2021</p>
+                                <p class="deliver-item__price font-weight-medium">от <strong>910</strong> руб.</p>
+                            </div>
+                            <div class="deliver-item__info">
+                                <p class="deliver-item__company font-weight-medium">СДЭК</p>
+                                <p class="deliver-item__date font-weight-regular">08-09-2021</p>
+                                <p class="deliver-item__price font-weight-medium">от <strong>910</strong> руб.</p>
+                            </div>
+                        </div>
+                        <div class="deliver-item">
+                            <p class="deliver-item__title font-weight-semibold">Самовывоз</p>
+                            <div class="deliver-item__info">
+                                <p class="deliver-item__company font-weight-medium">СДЭК</p>
+                                <p class="deliver-item__date font-weight-regular">08-09-2021</p>
+                                <p class="deliver-item__price font-weight-medium">от <strong>830</strong> руб.</p>
+                            </div>
+                            <div class="deliver-item__info">
+                                <p class="deliver-item__company font-weight-medium">СДЭК</p>
+                                <p class="deliver-item__date font-weight-regular">08-09-2021</p>
+                                <p class="deliver-item__price font-weight-medium">от <strong>830</strong> руб.</p>
+                            </div>
+                        </div>
+                        <hr class="deliver-line">
+                        <div class="deliver-footer">
+                            <p class="deliver-footer__text font-weight-medium">Добавьте товаров на <strong>20 000 руб.</strong></p>
+                            <img src="assets/img/box.svg" alt="Коробка" class="deliver-footer__img">
+                            <p class="deliver-footer__text font-weight-medium">Для <strong>БЕСПЛАТНОЙ</strong> доставки</p>
+                        </div>
+                    </div>
+                    <div class="deliver-column">
+                        <div class="office-city font-weight-semibold">Доставка в <span>Москва</span></div>
+                        <img src="assets/pic/map-moscow.png" alt="Карта москвы" class="deliver__map">
+                        <div class="order-deliver-row">
+                            <div class="order-deliver-item">
+                                <label for="name" class="order-form__label font-md font-weight-medium">Получатель</label>
+                                <div class="order-form__row">
+                                    <img src="assets/img/avatar.svg" alt="Аватар" class="order-form__icon">
+                                    <input type="text" name="name" id="name" class="order-form__input font-exlg font-weight-regular" placeholder="Андрей Чеботарев">
+                                </div>
+                            </div>
+                            <div class="order-deliver-item">
+                                <label for="mobile" class="order-form__label font-md font-weight-medium">Ваш телефон</label>
+                                <div class="order-form__row">
+                                    <img src="assets/img/mobile.svg" alt="Аватар" class="order-form__icon">
+                                    <input type="tel" name="mobile" id="mobile" class="order-form__input font-exlg font-weight-regular" placeholder="+ 7 (926) 926 - 926 - 7">
+                                </div>
+                            </div>
+                            <div class="order-deliver-item">
+                                <label for="mail" class="order-form__label font-md font-weight-medium">Электроная почта</label>
+                                <div class="order-form__row">
+                                    <img src="assets/img/mail-icon.svg" alt="Аватар" class="order-form__icon">
+                                    <input type="text" name="mail" id="mail" class="order-form__input font-exlg font-weight-regular" placeholder="chebotarev20-test@yandex.ru">
+                                </div>
+                            </div>
+                            <div class="order-deliver-item">
+                                <div class="order-form__select" id="orderDeliver">
+                                    <p class="order-form__select-title deliver-block-text font-exlg font-weight-medium">Выберите удобный способ связи</p>
+                                    <div class="order-form__select-dots"></div>
+                                    <ul class="order-form__select-list">
+                                        <li class="order-form__select-item choise-block-deliver font-lg font-weight-regular">первый</li>
+                                        <li class="order-form__select-item choise-block-deliver font-lg font-weight-regular">Второй</li>
+                                        <li class="order-form__select-item choise-block-deliver font-lg font-weight-regular">Третий</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="order-deliver-item">
+                                <label for="comment" class="order-form__label font-md font-weight-medium">Ваше сообщение</label>
+                                <textarea name="comment" id="comment" class="order-form__textarea font-exlg font-weight-regular" placeholder="Введите комментарий к заявке"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="order-deliver-price">
+            <div class="container">
+                <div class="order-deliver-price__row">
+                    <div class="order-deliver-price-item">
+                        <p class="order-deliver-price-item__text font-lg">Сумма заказа</p>
+                        <p class="order-deliver-price-item__count font-lg font-weight-semibold">1 263 ₽</p>
+                    </div>
+                    <div class="order-deliver-price-item">
+                        <p class="order-deliver-price-item__text font-lg">Сумма заказа</p>
+                        <p class="order-deliver-price-item__count font-lg font-weight-semibold">0 ₽</p>
+                    </div>
+                    <div class="order-deliver-price-item-result">
+                        <p class="order-deliver-price-item-result__text font-weight-medium">Итого к оплате</p>
+                        <p class="order-deliver-price-item-result__count font-weight-medium">1 263 ₽</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="order-payment">
+            <div class="container">
+                <h2 class="order-payment__title">Выберите способ оплаты</h2>
+                <div class="order-payment-row">
+                    <div class="order-payment-item">
+                        <img src="assets/pic/header-logo-mobile.png" alt="логотип" class="order-payment-item__img">
+                        <p class="order-payment-item__text">По счёту (для юридических лиц)</p>
+                    </div>
+                    <div class="order-payment-item">
+                        <img src="assets/pic/header-logo-mobile.png" alt="логотип" class="order-payment-item__img">
+                        <p class="order-payment-item__text">После согласования с менеджером</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a href="#" class="order-link font-weight-medium" >Оформить заказ</a>
+    </main>
+@@include('_footer.html')

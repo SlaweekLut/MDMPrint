@@ -1,0 +1,127 @@
+@@include('_header.html')
+    <main class="main">
+        <!-- Line-Nav -->
+        <div class="line-nav">
+            <div class="container">
+                <p class="line-nav__text font-sm">Главная</p>
+                <p class="line-nav__text font-sm">Магазин</p>
+                <p class="line-nav__text font-sm">Подставки для ноутбука</p>
+                <p class="line-nav__text font-sm active">Подставка под ноутбук из массива дуба “Honeycomb”</p>
+            </div>
+        </div>
+        <!-- Product -->
+        <section class="product">
+            <div class="container">
+                <div class="product-column">
+                    <div class="product-column-nav">
+                        <button class="product-column-nav__item active">Фотографии</button>
+                        <button class="product-column-nav__item">Персонализация</button>
+                        <button class="product-column-nav__item">Примеры</button>
+                    </div>
+                    <div class="product-column-types">
+                        <div class="product-column-types__type active">
+                            <div class="product-img"></div>
+                            <div class="product-images">
+                                <div class="product-images__item"></div>
+                                <div class="product-images__item"></div>
+                                <div class="product-images__item"></div>
+                                <div class="product-images__item"></div>
+                                <div class="product-images__item"></div>
+                            </div>
+                        </div>
+                        <div class="product-column-types__type">
+                            <div class="product-img"></div>
+                        </div>
+                        <div class="product-column-types__type">
+                            <div class="product-img"></div>
+                            <div class="product-images">
+                                <div class="product-images__item"></div>
+                                <div class="product-images__item"></div>
+                                <div class="product-images__item"></div>
+                                <div class="product-images__item"></div>
+                                <div class="product-images__item"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-column">
+                    <p class="product-new font-md font-weight-medium">Новинка</p>
+                    <h2 class="product__title">Подставка под ноутбук из массива дуба “Honeycomb”
+                    </h2>
+                    <div class="product-row">
+                        <div class="product-count">
+                            <p class="product-count__title font-md font-weight-medium">Укажите количество</p>
+                            <div class="product-count-row">
+                                <div class="product-count-clicker">
+                                    <button class="product-count-clicker__plus"><img src="assets/img/plus.svg" alt="Плюс"></button>
+                                    <input type="number" class="product-count-clicker__num" placeholder="1"></input>
+                                    <button class="product-count-clicker__minus"><img src="assets/img/minus.svg" alt="Минус"></button>
+                                </div>
+                                <p class="product-count__count font-sm font-weight-medium">На складе: 10 шт.</p>
+                            </div>
+                        </div>
+                        <div class="product-price">
+                            <div class="product-price-header">
+                                <div class="product-price-header__one font-md font-weight-medium">За 1 шт.</div>
+                                <div class="product-price-header__sum font-md font-weight-medium">Сумма</div>
+                            </div>
+                            <div class="product-price-content">
+                                <div class="product-price-content__one font-weight-medium">
+                                    <s>3 500 руб.</s>
+                                    <p>3 000 руб.</p>
+                                </div>
+                                <div class="product-price-content__sum font-weight-semibold">3 000 руб.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-order">
+                        <button class="calculator-other-order__btn oneclick font-weight-medium">Заказать в 1 клик</button>
+                        <button class="calculator-other-order__btn addcart font-weight-medium">Добавить в корзину</button>
+                    </div>
+                    <div class="product-info__main-title font-md font-weight-medium">О товаре:</div>
+                    <div class="product-info">
+                        <div class="product-info-column">
+                            <div class="product-info-item">
+                                <p class="product-info-item__title font-sm">Размер</p>
+                                <p class="product-info-item__text font-sm">580 х 290 х 15 мм</p>
+                            </div>
+                            <div class="product-info-item">
+                                <p class="product-info-item__title font-sm">Цвет</p>
+                                <p class="product-info-item__text font-sm">Натуральный</p>
+                            </div>
+                            <div class="product-info-item">
+                                <p class="product-info-item__title font-sm">В комплекте</p>
+                                <p class="product-info-item__text font-sm">Подставка, кожаный коврик для мыши</p>
+                            </div>
+                        </div>
+                        <div class="product-info-column">
+                            <div class="product-info-item">
+                                <p class="product-info-item__title font-sm">Упаковка</p>
+                                <p class="product-info-item__text font-sm">Картонная</p>
+                            </div>
+                            <div class="product-info-item">
+                                <p class="product-info-item__title font-sm">Материал</p>
+                                <p class="product-info-item__text font-sm">Массив дуба</p>
+                            </div>
+                            <a href="#" class="product-info-item__link">Перейти к описанию <img src="assets/img/arrow-3Type.svg" alt="Стрелка"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Info -->
+        @@include('_info.html')
+        <!-- Instagram -->
+        @@include('_instagram.html')
+        <!-- Blog -->
+        @@include('_blog.html')
+        <!-- Recommendation -->
+        @@include('_recommendation.html')
+        <!-- Map -->
+        @@include('_map.html')
+        <!-- Clients -->
+        @@include('_clients.html')
+        <!-- Order -->
+        @@include('_order.html')
+    </main>
+@@include('_footer.html')

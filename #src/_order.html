@@ -1,0 +1,73 @@
+<div class="order" id="orderScroll">
+    <div class="container">
+        <h2 class="order__title">Быстрый заказ на печать</h2>
+        <form class="order-form" action="GET">
+            <div class="order-form__row">
+                <div class="order-form__column">
+                    <label for="name" class="order-form__label font-md font-weight-medium">Ваше имя</label>
+                    <div class="order-form__row">
+                        <img src="assets/img/avatar.svg" alt="Аватар" class="order-form__icon">
+                        <input type="text" name="name" id="name" class="order-form__input font-exlg font-weight-regular" placeholder="Андрей Чеботарев">
+                    </div>
+                    <label for="mail" class="order-form__label font-md font-weight-medium">Электроная почта</label>
+                    <div class="order-form__row">
+                        <img src="assets/img/mail-icon.svg" alt="Аватар" class="order-form__icon">
+                        <input type="text" name="mail" id="mail" class="order-form__input font-exlg font-weight-regular" placeholder="chebotarev20-test@yandex.ru">
+                    </div>
+                    <label for="mobile" class="order-form__label font-md font-weight-medium">Ваш телефон</label>
+                    <div class="order-form__row">
+                        <img src="assets/img/mobile.svg" alt="Аватар" class="order-form__icon">
+                        <input type="tel" name="mobile" id="mobile" class="order-form__input font-exlg font-weight-regular" placeholder="+ 7 (926) 926 - 926 - 7">
+                    </div>
+                    <div class="order-form__select" id="orderDeliver">
+                        <p class="order-form__select-title deliver-block-text font-exlg font-weight-medium">Выберите способ доставки заказа</p>
+                        <div class="order-form__select-dots"></div>
+                        <ul class="order-form__select-list">
+                            <li class="order-form__select-item choise-block-deliver font-lg font-weight-regular">Самовывоз</li>
+                            <li class="order-form__select-item choise-block-deliver font-lg font-weight-regular">Доставка</li>
+                            <li class="order-form__select-item choise-block-deliver font-lg font-weight-regular">Определюсь с доставкой позже</li>
+                        </ul>
+                    </div>
+                    <div class="order-form__select order-form__select-self" id="orderAddress">
+                        <p class="order-form__select-title font-exlg address-block-text font-weight-medium">КЦ Шоссе Энтузиастов</p>
+                        <div class="order-form__select-marker"><img src="assets/img/order-marker.svg" alt="Метка"></div>
+                        <ul class="order-form__select-list">
+                            <li class="order-form__select-item choise-block-address font-lg font-weight-regular">КЦ Павелецкая</li>
+                            <li class="order-form__select-item choise-block-address font-lg font-weight-regular">КЦ Проспект Мира</li>
+                            <li class="order-form__select-item choise-block-address font-lg font-weight-regular">КЦ Красные ворота</li>
+                            <li class="order-form__select-item choise-block-address font-lg font-weight-regular">КЦ 1905 года</li>
+                            <li class="order-form__select-item choise-block-address font-lg font-weight-regular">КЦ Семеновская</li>
+                            <li class="order-form__select-item choise-block-address font-lg font-weight-regular">КЦ Сокол</li>
+                            <li class="order-form__select-item choise-block-address font-lg font-weight-regular">КЦ Баумановская</li>
+                            <li class="order-form__select-item choise-block-address font-lg font-weight-regular">КЦ адрес</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="order-form__column">
+                    <label for="comment" class="order-form__label font-md font-weight-medium">Ваше сообщение</label>
+                    <textarea name="comment" id="comment" class="order-form__textarea font-exlg font-weight-regular" placeholder="Введите комментарий к заявке"></textarea>
+                    <label for="file" class="order-form__label font-md font-weight-medium">Загрузить файл</label>
+                    <div class="order-form__upload-container">
+                        <img src="assets/img/upload.svg" alt="Загрузить" class="order-form__upload-icon">
+                        <div class="order-form__upload-text">
+                            <p class="order-form__upload-title">Добавьте файлы</p>
+                            <p class="order-form__upload-subtitle font-md font-weight-regular">перетащите их в это поле</p>
+                        </div>
+                        <input type="file" name="file" id="upload" class="order-form__upload font-exlg font-weight-regular file-input" multiple>
+                    </div>
+                    <div class="files"></div>
+                </div>
+            </div>
+            <div class="order-form__footer">
+                <div class="order-form__footer-mobile">
+                    <label class='order-form__footer-checkbox'>
+                        <input type='checkbox' class='order-form__footer-input' required>
+                        <span class='order-form__footer-box'><img src="assets/img/check.svg" alt="Галочка"></span>
+                    </label>
+                    <p class="order-form__footer-text font-md font-weight-regular">Даю согласие на обработку данных в соответствии с правилами сайта</p>
+                </div>
+                <input class="order-form__footer-submit" type="submit" value="Отправить заказ">
+            </div>
+        </form>
+    </div>
+</div>

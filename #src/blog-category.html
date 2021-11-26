@@ -1,0 +1,66 @@
+@@include('_header.html')
+<main class="main">
+	<!-- Line-nav -->
+	<div class="line-nav">
+		<div class="container">
+			<p class="line-nav__text font-sm">Главная</p>
+			<p class="line-nav__text font-sm active">Блог</p>
+		</div>
+	</div>
+	<!-- Blog -->
+	<div class="blog">
+		<div class="container">
+			<div class="blog-row">
+				<div class="blog-main">
+					<div class="blog-main-search">
+						<label for="blog-search" class="blog-main-search__input-icon">
+							<img src="assets/img/search.svg" alt="Лупа">
+						</label>
+						<input type="text" name="blog-search" id="blog-search" class='blog-main-search__input font-sm font-weight-medium' placeholder="Искать на mdmprint.ru">
+						<button class="blog-main-search__button">
+							<img src="assets/img/arrow-2type.svg" alt="Стрелка вправо" class="blog-main-search__button-arrow">
+						</button>
+					</div>
+					<div class="blog-main-category-header">
+						<p class="blog-main-item__title font-weight-medium">Контрагенты</p>
+						<p class="blog-main-item__subtitle font-lg font-weight-medium">Контрагенты</p>
+					</div>
+					<div class="blog-main-category-item">
+						<p class="blog-main-category-item__data font-md">08-07-2021 03:00</p>
+						<p class="blog-main-category-item__title font-weight-medium">POS-материалы: виды, особенности и назначение</p>
+						<p class="blog-main-category-item__text font-md">POS-материалы - информационно-рекламная продукция, которая размещается в точках продаж товаров и услуг. Существует множество разновидностей POS-материалов, каждый из которых имеет своё назначение. В нашей статье мы подробно разобрали особенности и места размещения всех популярных видов POS-материалов.</p>
+						<div class="blog-main-category-item__video font-md">
+							<img src="assets/img/play.svg" alt="Запуск" class="blog-main-category-item__video-play">
+						</div>
+						<div class="blog-main-category-item-info">
+							<div class="blog-main-category-item-info__item">
+								<img src="assets/img/views.svg" alt="Просмотры" class="blog-main-category-item-info__item-img">
+								<p class="blog-main-category-item-info__item-text font-lg font-weight-medium">221</p>
+							</div>
+							<div class="blog-main-category-item-info__item">
+								<img src="assets/img/comment.svg" alt="Комментарии" class="blog-main-category-item-info__item-img blog-main-category-item-info__pointer">
+								<p class="blog-main-category-item-info__item-text font-lg font-weight-medium">5</p>
+							</div>
+							<div class="blog-main-category-item-info__item">
+								<img src="assets/img/share.svg" alt="Поделиться" class="blog-main-category-item-info__item-img blog-main-category-item-info__pointer">
+							</div>
+							<div class="blog-main-category-item-info__item">
+								<button class="blog-main-category-item-info__clicker-item"><img src="assets/img/plus-sircle.svg" alt="Плюс" class="blog-main-category-item-info__item-plus blog-main-category-item-info__pointer"></button>
+								<p class="blog-main-category-item-info__clicker-item font-lg font-weight-medium">2</p>
+								<button class="blog-main-category-item-info__clicker-item"><img src="assets/img/minus-sircle.svg" alt="Минус" class="blog-main-category-item-info__item-minus blog-main-category-item-info__pointer"></button>
+							</div>
+						</div>
+					</div>
+					<div class="shop-pagination">
+						<a href="#" class="shop-pagination__item font-md font-weight-medium active">1</a>
+						<a href="#" class="shop-pagination__item font-md font-weight-medium">2</a>
+						<a href="#" class="shop-pagination__item font-md font-weight-medium">3</a>
+						<a href="#" class="shop-pagination__item font-md font-weight-medium"><img src="assets/img/arrow-right.svg" alt="Стрелочка"></a>
+					</div>
+				</div>
+				@@include('_aside.html')
+			</div>
+		</div>
+	</div>
+</main>
+@@include('_footer.html')

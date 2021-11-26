@@ -1,0 +1,39 @@
+@@include('_header.html')
+    <main class="main">
+        <!-- Payment -->
+        <section class="payment">
+            <div class="container">
+                <h2 class="info-container__title">Способы оплаты</h2>
+                <div class="swiper info-payment-swiper">
+                    <div class="swiper-wrapper info-payment-wrapper">
+                        <div class="swiper-slide info-payment-item">
+                            <img src="assets/img/pay-img-04.svg" alt="Оплата" class="info-payment-item__img">
+                            <p class="info-payment-item__title font-weight-medium">Банковской картой</p>
+                        </div>
+                        <div class="swiper-slide info-payment-item">
+                            <img src="assets/img/pay-img-05.svg" alt="Оплата" class="info-payment-item__img">
+                            <p class="info-payment-item__title font-weight-medium">По счету для юр.лиц</p>
+                        </div>
+                        <div class="swiper-slide info-payment-item">
+                            <img src="assets/img/pay-img-02.svg" alt="Оплата" class="info-payment-item__img">
+                            <p class="info-payment-item__title font-weight-medium">Наличными</p>
+                        </div>
+                        <div class="swiper-slide info-payment-item">
+                            <img src="assets/img/pay-img-01.svg" alt="Оплата" class="info-payment-item__img">
+                            <p class="info-payment-item__title font-weight-medium">Электронными деньгами</p>
+                        </div>
+                        <div class="swiper-slide info-payment-item">
+                            <img src="assets/img/pay-img-03.svg" alt="Оплата" class="info-payment-item__img">
+                            <p class="info-payment-item__title font-weight-medium">Закупки по ФЗ-44</p>
+                        </div>
+                    </div>
+                
+                    <div class="swiper-button-prev info-button"></div>
+                    <div class="swiper-button-next info-button"></div>
+                </div>
+            </div>
+        </section>
+        <!-- Order -->
+        @@include('_order.html')
+    </main>
+@@include('_footer.html')

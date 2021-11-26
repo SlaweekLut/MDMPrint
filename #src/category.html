@@ -1,0 +1,36 @@
+@@include('_header.html')
+    <main class="main">
+        <!-- Line-Nav -->
+        <div class="line-nav">
+            <div class="container">
+                <p class="line-nav__text font-sm">Главная</p>
+                <p class="line-nav__text font-sm">Копицентр</p>
+                <p class="line-nav__text font-sm">Копирование</p>
+                <p class="line-nav__text font-sm active">Копирование документов</p>
+            </div>
+        </div>
+        <!-- Title -->
+        @@include('_title.html')
+        <!-- Features -->
+        @@include('_features.html')
+        <!-- main-services -->
+        @@include('_services.html', {
+            'services-title': 'Услуги MDMPRINT'
+        })
+        <!-- Info -->
+        @@include('_info.html')
+        <!-- Instagram -->
+        @@include('_instagram.html')
+        <!-- Blog -->
+        @@include('_blog.html')
+        <!-- Recommendation -->
+        @@include('_recommendation.html')
+        <!-- Map -->
+        @@include('_map.html')
+        <!-- Clients -->
+        @@include('_clients.html')
+        <!-- Order -->
+        @@include('_order.html')
+        
+    </main>
+@@include('_footer.html')

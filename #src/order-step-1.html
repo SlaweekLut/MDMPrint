@@ -1,0 +1,171 @@
+@@include('_header.html')
+    <main class="main">
+        <div class="order-line-nav">
+            <div class="container">
+                <div class="order-line-nav__block active">
+                    <p class="order-line-nav__num font-weight-medium">1</p>
+                    <p class="order-line-nav__text font-weight-medium">Корзина</p>
+                </div>
+                <div class="order-line-nav__block">
+                    <p class="order-line-nav__num font-weight-medium">2</p>
+                    <p class="order-line-nav__text font-weight-medium">Доставка и оплата</p>
+                </div>
+                <div class="order-line-nav__block">
+                    <p class="order-line-nav__num font-weight-medium">3</p>
+                    <p class="order-line-nav__text font-weight-medium">Спасибо за заказ</p>
+                </div>
+            </div>
+        </div>
+        <section class="cart">
+            <div class="container">
+                <div class="cart-row">
+                    <div class="cart-column">
+                        <div class="cart-header">
+                            <h2 class="cart__title">Корзина</h2>
+                            <div class="cart-header__row">
+                                <p class="cart-header__text font-lg">Всего в корзине расчётов</p>
+                                <p class="cart-header__count font-lg font-weight-medium">4</p>
+                            </div>
+                        </div>
+                        <div class="cart-incart">
+                            <div class="cart-item">
+                                <div class="cart-item__img">
+    
+                                </div>
+                                <div class="cart-item__column">
+                                    <p class="cart-item__title">Листовое копирование А4, А3</p>
+                                    <div class="cart-item__more">
+                                        <div class="cart-item__more-header">
+                                            <p class="cart-item__more-title font-lg">Подробности расчёта</p>
+                                            <img src="assets/img/plus.svg" alt="Плюс" class="cart-item__more-plus"> 
+                                            <img src="assets/img/open-minus.svg" alt="минус" class="cart-item__more-minus">
+                                        </div>
+                                        <div class="cart-item__more-list">
+                                            <div class="cart-item__more-item">
+                                                <p class="cart-item__more-text font-sm">Формат листа</p>
+                                                <p class="cart-item__more-text font-sm font-weight-medium">А3 (297х420 мм)</p>
+                                            </div>
+                                            <div class="cart-item__more-item">
+                                                <p class="cart-item__more-text font-sm">Печать</p>
+                                                <p class="cart-item__more-text font-sm font-weight-medium">черно-белая</p>
+                                            </div>
+                                            <div class="cart-item__more-item">
+                                                <p class="cart-item__more-text font-sm">Подача оригинала</p>
+                                                <p class="cart-item__more-text font-sm font-weight-medium">автоматическая</p>
+                                            </div>
+                                            <div class="cart-item__more-item">
+                                                <p class="cart-item__more-text font-sm">Бумага</p>
+                                                <p class="cart-item__more-text font-sm font-weight-medium">офс. бумага 80 г а4</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart-item__comment">
+                                        <div class="cart-item__comment-header">
+                                            <p class="cart-item__comment-title font-lg">Комментарий к расчёту</p>
+                                            <img src="assets/img/plus.svg" alt="Плюс" class="cart-item__comment-plus"> 
+                                            <img src="assets/img/open-minus.svg" alt="минус" class="cart-item__comment-minus">
+                                        </div>
+                                        <textarea class="cart-item__comment-area" placeholder="Введите комментарий к рассчету"></textarea>
+                                    </div>
+                                </div>
+                                <div class="cart-item__functional">
+                                    <p class="cart-item__price font-weight-medium">
+                                        214 <span>₽</span>
+                                    </p>
+                                    <button class="cart-item__bookmark">
+                                        <img src="assets/img/bookmark.svg" alt="В закладки">
+                                    </button>
+                                    <button class="cart-item__delete">
+                                        <img src="assets/img/trash.svg" alt="Удалить">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-column cart-discount">
+                        <div class="cart-discount__title font-weight-medium"><img src="assets/img/percentage.svg" alt="Скидка">Скидка применена к заказу</div>
+                        <div class="cart-discount-content">
+                            <div class="cart-discount-point">
+                                <div class="cart-discount-point-row">
+                                    <label class='order-form__footer-checkbox'>
+                                        <input type='checkbox' class='order-form__footer-input' >
+                                        <span class='order-form__footer-box'><img src="assets/img/check.svg" alt="Галочка"></span>
+                                    </label>
+                                    <p>Использовать бонусы с вашего счёта: 0</p>
+                                    <input type="number" class="cart-discount-point__input font-lg font-weight-medium" placeholder="0">
+                                </div>
+                                <div class="cart-discount-point-row">
+                                    <p class="cart-discount-point__promo font-exlg font-weight-medium">Есть промокод?</p>
+                                    <label for="promo" class="cart-discount-point__promo-clear"></label>
+                                    <input type="text" name="promo" id="promo" class="cart-discount-point__input font-lg font-weight-medium" placeholder="TV5F10%">  
+                                </div>
+                            </div>
+                            <div class="cart-discount-info">
+                                <ul class="cart-discount-info-list">
+                                    <li class="cart-discount-info-list__item">
+                                        <p class="cart-discount-info-list__text font-lg">Сумма заказа</p>
+                                        <p class="cart-discount-info-list__text font-lg">1 389 ₽</p>
+                                    </li>
+                                    <li class="cart-discount-info-list__item">
+                                        <p class="cart-discount-info-list__text font-lg">Скидка на заказ в процентах</p>
+                                        <p class="cart-discount-info-list__text font-lg">10%</p>
+                                    </li>
+                                    <li class="cart-discount-info-list__item">
+                                        <p class="cart-discount-info-list__text font-lg">Вес заказа</p>
+                                        <p class="cart-discount-info-list__text font-lg">14.80 кг</p>
+                                    </li>
+                                </ul>
+                                <div class="cart-discount-info-item">
+                                    <p class="cart-discount-info-item__text font-weight-medium">Итого к оплате</p>
+                                    <p class="cart-discount-info-item__sum font-weight-medium">1 263 ₽</p>
+                                </div>
+                                <p class="cart-discount-info-item__bonus font-md"><img src="assets/img/ruble.svg" alt="Рубль">+ 210 ₽ на ваш бонусный счёт за этот заказ</p>
+                                <a href="#" class="cart-discount-info-item__btn font-weight-medium">Оформить заказ</a>
+                                <p class="cart-discount-info-item__bonus-text font-exlg font-weight-medium">Вы собрали все бонусы и подарки!</p>
+                                <p class="cart-discount-info-item__bonus font-lg"><img src="assets/img/ruble.svg" alt="Рубль">210 ₽ на бонусный счёт</p>
+                                <p class="cart-discount-info-item__bonus font-lg"><img src="assets/img/truck.svg" alt="Грузовик">Бесплатную доставку в 2-х часовой интервал</p>
+                                <div class="deliver-footer">
+                                    <p class="deliver-footer__text font-weight-medium">Добавьте товаров на <strong>20 000 руб.</strong></p>
+                                    <img src="assets/img/box.svg" alt="Коробка" class="deliver-footer__img">
+                                    <p class="deliver-footer__text font-weight-medium">Для <strong>БЕСПЛАТНОЙ</strong> доставки</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-discount-footer">
+                            <button class="cart-discount-footer__btn font-weight-medium">Заказать в 1 клик</button>
+                            <p class="cart-discount-footer__basket font-md"><img src="assets/img/basket.svg" alt="Корзина"> Поделиться корзиной</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-footer">
+                    <div class="cart-footer-column">
+                        <label for="comment" class="order-form__label font-md font-weight-medium">Ваше сообщение</label>
+                        <textarea name="comment" id="comment" class="order-form__textarea font-exlg font-weight-regular" placeholder="Введите комментарий к заявке"></textarea>
+                    </div>
+                    <div class="cart-footer-column">
+                        <label for="file" class="order-form__label font-md font-weight-medium">Загрузить файл</label>
+                        <div class="order-form__upload-container">
+                            <img src="assets/img/upload.svg" alt="Загрузить" class="order-form__upload-icon">
+                            <div class="order-form__upload-text">
+                                <p class="order-form__upload-title">Добавьте файлы</p>
+                                <p class="order-form__upload-subtitle font-md font-weight-regular">перетащите их в это поле</p>
+                            </div>
+                            <input type="file" name="file" id="file" class="order-form__upload font-exlg font-weight-regular">
+                        </div>
+                    </div>
+                </div>
+                <div class="gift">
+                    <p class="gift__title font-weight-medium"><img src="assets/img/gift.svg" alt="Подарок">Подарки и спецпредложения</p>
+                    <div class="gift-row">
+                        <div class="gift__img"></div>
+                        <div class="gift-column">
+                            <p class="gift__title-item font-weight-medium">Листовое копирование А4, А3</p>
+                            <p class="gift__text-item font-lg"><img src="assets/img/gift.svg" alt="Подарок">Подарок</p>
+                        </div>
+                        <button class="gift__btn font-weight-medium">Принять подарок</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    @@include('_footer.html')

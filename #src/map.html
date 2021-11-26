@@ -1,0 +1,406 @@
+@@include('_header.html')
+<main class="main">
+	<section class="office">
+		<div class="container">
+			<div class="office-city font-weight-semibold city-popup-open">Укажите ваш город <span><img src="assets/img/cursor.svg" alt="курсор">Москва</span></div>
+			<div class="office-nav">
+				<button class="office-nav__btn office-control font-weight-medium active">Адреса <span>|</span> Схемы проезда</button>
+				<button class="office-nav__btn office-control font-weight-medium">Контакты менеджеров</button>
+				<button class="office-nav__btn office-control font-weight-medium">Документы <span>|</span> Реквизиты</button>
+			</div>
+			<div class="office-nav-mobile office-nav">
+				<div class="office-nav-mobile__title font-weight-medium">Адреса <span>|</span> Схемы проезда <img src="assets/img/arrow.svg" alt="Стрелочка"> </div>
+				<div class="office-nav-mobile__dropdown">
+					<button class="office-nav-mobile__btn office-nav__btn font-weight-medium active" value="0">Адреса <span>|</span> Схемы проезда</button>
+					<button class="office-nav-mobile__btn office-nav__btn font-weight-medium" value="1">Контакты менеджеров</button>
+					<button class="office-nav-mobile__btn office-nav__btn font-weight-medium" value="2">Документы <span>|</span> Реквизиты</button>
+				</div>
+			</div>
+			<div class="office-offices active">
+				<h2 class="office-offices__title">Офисы</h2>
+				<div class="office-wrapper">
+					<div class="office-choise-style">
+						<div class="map-element city-popup-open">
+							<img src="assets/img/cursor.svg" alt="Курсор" class="map-element__icon">
+							<p class="map-element__title font-lg font-weight-medium city-popup-open">Москва</p>
+						</div>
+						<div class="map-element map-control active">
+							<img src="assets/img/list.svg" alt="Список" class="map-element__icon">
+							<p class="map-element__title font-lg font-weight-medium control-map">Список</p>
+						</div>
+						<div class="map-element map-control">
+							<img src="assets/img/marker-without-circle.svg" alt="Курсор" class="map-element__icon">
+							<p class="map-element__title font-lg font-weight-medium control-map">Карта</p>
+						</div>
+
+						<div class="map-element map-control">
+							<img src="assets/img/map-metro.svg" alt="Мутро" class="map-element__icon">
+							<p class="map-element__title font-lg font-weight-medium control-map">Схема метро</p>
+						</div>
+					</div>
+					<div class="office-list active">
+						<table class="office-table">
+							<thead class="office-table-header">
+								<tr class="office-table-header__row">
+									<th class="office-table-header__title font-exlg font-weight-medium">Название и адрес</th>
+									<th class="office-table-header__title font-exlg font-weight-medium">Станция метро</th>
+									<th class="office-table-header__title font-exlg font-weight-medium">Схемы проезда</th>
+									<th class="office-table-header__title font-exlg font-weight-medium">Режим работы</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="office-table__row">
+									<td class="office-table-item__name">
+										<p class="office-table-item__title font-exlg font-weight-medium">Копицентр Шоссе Энтузиастов</p>
+										<p class="office-table-item__text font-lg font-weight-medium">г. Москва, Шоссе Энтузиастов, д. 31, стр. 38, пав. Б8</p>
+									</td>
+									<td class="office-table-item__metro">
+										<img class="office-table-item__img" src="assets/img/metro.svg" alt="Метро">
+										<p class="office-table-item__text font-lg font-weight-medium">Шоссе Энтузиастов</p>
+									</td>
+									<td class="office-table-item__maps">
+										<a href="#" class="office-table-item__link"><img src="assets/img/google-maps.svg" alt="гугл карты"></a>
+										<a href="#" class="office-table-item__link"><img src="assets/img/yandex-maps.svg" alt="гугл карты"></a>
+									</td>
+									<td class="office-table-item__mode">
+										<p class="office-table-item__work">Пн - Пт : 10:00 - 20:00 | Сб,<br> Вс: выходные</p>
+										<a href="#" class="office-table-item__link-btn">Подробнее</a>
+									</td>
+								</tr>
+								<tr class="office-table__row">
+									<td class="office-table-item__name">
+										<p class="office-table-item__title font-exlg font-weight-medium">Копицентр Шоссе Энтузиастов</p>
+										<p class="office-table-item__text font-lg font-weight-medium">г. Москва, Шоссе Энтузиастов, д. 31, стр. 38, пав. Б8</p>
+										<p class="office-table-item__express font-md font-weight-medium">Express</p>
+									</td>
+									<td class="office-table-item__metro">
+										<img class="office-table-item__img" src="assets/img/metro.svg" alt="Метро">
+										<p class="office-table-item__text font-lg font-weight-medium">Шоссе Энтузиастов</p>
+									</td>
+									<td class="office-table-item__maps">
+										<a href="#" class="office-table-item__link"><img src="assets/img/google-maps.svg" alt="гугл карты"></a>
+										<a href="#" class="office-table-item__link"><img src="assets/img/yandex-maps.svg" alt="гугл карты"></a>
+									</td>
+									<td class="office-table-item__mode">
+										<p class="office-table-item__work">Пн - Пт : 10:00 - 20:00 | Сб,<br> Вс: выходные</p>
+										<a href="#" class="office-table-item__link-btn">Подробнее</a>
+									</td>
+								</tr>
+								<tr class="office-table__row">
+									<td class="office-table-item__name">
+										<p class="office-table-item__title font-exlg font-weight-medium">Копицентр Шоссе Энтузиастов</p>
+										<p class="office-table-item__text font-lg font-weight-medium">г. Москва, Шоссе Энтузиастов, д. 31, стр. 38, пав. Б8</p>
+									</td>
+									<td class="office-table-item__metro">
+										<img class="office-table-item__img" src="assets/img/metro.svg" alt="Метро">
+										<p class="office-table-item__text font-lg font-weight-medium">Шоссе Энтузиастов</p>
+									</td>
+									<td class="office-table-item__maps">
+										<a href="#" class="office-table-item__link"><img src="assets/img/google-maps.svg" alt="гугл карты"></a>
+										<a href="#" class="office-table-item__link"><img src="assets/img/yandex-maps.svg" alt="гугл карты"></a>
+									</td>
+									<td class="office-table-item__mode">
+										<p class="office-table-item__work">Пн - Пт : 10:00 - 20:00 | Сб,<br> Вс: выходные</p>
+										<a href="#" class="office-table-item__link-btn">Подробнее</a>
+									</td>
+								</tr>
+								<tr class="office-table__row">
+									<td class="office-table-item__name">
+										<p class="office-table-item__title font-exlg font-weight-medium">Копицентр Шоссе Энтузиастов</p>
+										<p class="office-table-item__text font-lg font-weight-medium">г. Москва, Шоссе Энтузиастов, д. 31, стр. 38, пав. Б8</p>
+									</td>
+									<td class="office-table-item__metro">
+										<img class="office-table-item__img" src="assets/img/metro.svg" alt="Метро">
+										<p class="office-table-item__text font-lg font-weight-medium">Шоссе Энтузиастов</p>
+									</td>
+									<td class="office-table-item__maps">
+										<a href="#" class="office-table-item__link"><img src="assets/img/google-maps.svg" alt="гугл карты"></a>
+										<a href="#" class="office-table-item__link"><img src="assets/img/yandex-maps.svg" alt="гугл карты"></a>
+									</td>
+									<td class="office-table-item__mode">
+										<p class="office-table-item__work">Пн - Пт : 10:00 - 20:00 | Сб,<br> Вс: выходные</p>
+										<a href="#" class="office-table-item__link-btn">Подробнее</a>
+									</td>
+								</tr>
+								<tr class="office-table__row">
+									<td class="office-table-item__name">
+										<p class="office-table-item__title font-exlg font-weight-medium">Копицентр Шоссе Энтузиастов</p>
+										<p class="office-table-item__text font-lg font-weight-medium">г. Москва, Шоссе Энтузиастов, д. 31, стр. 38, пав. Б8</p>
+									</td>
+									<td class="office-table-item__metro">
+										<img class="office-table-item__img" src="assets/img/metro.svg" alt="Метро">
+										<p class="office-table-item__text font-lg font-weight-medium">Шоссе Энтузиастов</p>
+									</td>
+									<td class="office-table-item__maps">
+										<a href="#" class="office-table-item__link"><img src="assets/img/google-maps.svg" alt="гугл карты"></a>
+										<a href="#" class="office-table-item__link"><img src="assets/img/yandex-maps.svg" alt="гугл карты"></a>
+									</td>
+									<td class="office-table-item__mode">
+										<p class="office-table-item__work">Пн - Пт : 10:00 - 20:00 | Сб,<br> Вс: выходные</p>
+										<a href="#" class="office-table-item__link-btn">Подробнее</a>
+									</td>
+								</tr>
+								<tr class="office-table__row">
+									<td class="office-table-item__name">
+										<p class="office-table-item__title font-exlg font-weight-medium">Копицентр Шоссе Энтузиастов</p>
+										<p class="office-table-item__text font-lg font-weight-medium">г. Москва, Шоссе Энтузиастов, д. 31, стр. 38, пав. Б8</p>
+									</td>
+									<td class="office-table-item__metro">
+										<img class="office-table-item__img" src="assets/img/metro.svg" alt="Метро">
+										<p class="office-table-item__text font-lg font-weight-medium">Шоссе Энтузиастов</p>
+									</td>
+									<td class="office-table-item__maps">
+										<a href="#" class="office-table-item__link"><img src="assets/img/google-maps.svg" alt="гугл карты"></a>
+										<a href="#" class="office-table-item__link"><img src="assets/img/yandex-maps.svg" alt="гугл карты"></a>
+									</td>
+									<td class="office-table-item__mode">
+										<p class="office-table-item__work">Пн - Пт : 10:00 - 20:00 | Сб,<br> Вс: выходные</p>
+										<a href="#" class="office-table-item__link-btn">Подробнее</a>
+									</td>
+								</tr>
+								<tr class="office-table__row">
+									<td class="office-table-item__name">
+										<p class="office-table-item__title font-exlg font-weight-medium">Копицентр Шоссе Энтузиастов</p>
+										<p class="office-table-item__text font-lg font-weight-medium">г. Москва, Шоссе Энтузиастов, д. 31, стр. 38, пав. Б8</p>
+									</td>
+									<td class="office-table-item__metro">
+										<img class="office-table-item__img" src="assets/img/metro.svg" alt="Метро">
+										<p class="office-table-item__text font-lg font-weight-medium">Шоссе Энтузиастов</p>
+									</td>
+									<td class="office-table-item__maps">
+										<a href="#" class="office-table-item__link"><img src="assets/img/google-maps.svg" alt="гугл карты"></a>
+										<a href="#" class="office-table-item__link"><img src="assets/img/yandex-maps.svg" alt="гугл карты"></a>
+									</td>
+									<td class="office-table-item__mode">
+										<p class="office-table-item__work">Пн - Пт : 10:00 - 20:00 | Сб,<br> Вс: выходные</p>
+										<a href="#" class="office-table-item__link-btn">Подробнее</a>
+									</td>
+								</tr>
+								<tr class="office-table__row">
+									<td class="office-table-item__name">
+										<p class="office-table-item__title font-exlg font-weight-medium">Копицентр Шоссе Энтузиастов</p>
+										<p class="office-table-item__text font-lg font-weight-medium">г. Москва, Шоссе Энтузиастов, д. 31, стр. 38, пав. Б8</p>
+									</td>
+									<td class="office-table-item__metro">
+										<img class="office-table-item__img" src="assets/img/metro.svg" alt="Метро">
+										<p class="office-table-item__text font-lg font-weight-medium">Шоссе Энтузиастов</p>
+									</td>
+									<td class="office-table-item__maps">
+										<a href="#" class="office-table-item__link"><img src="assets/img/google-maps.svg" alt="гугл карты"></a>
+										<a href="#" class="office-table-item__link"><img src="assets/img/yandex-maps.svg" alt="гугл карты"></a>
+									</td>
+									<td class="office-table-item__mode">
+										<p class="office-table-item__work">Пн - Пт : 10:00 - 20:00 | Сб,<br> Вс: выходные</p>
+										<a href="#" class="office-table-item__link-btn">Подробнее</a>
+									</td>
+								</tr>
+								<tr class="office-table__row">
+									<td class="office-table-item__name">
+										<p class="office-table-item__title font-exlg font-weight-medium">Копицентр Шоссе Энтузиастов</p>
+										<p class="office-table-item__text font-lg font-weight-medium">г. Москва, Шоссе Энтузиастов, д. 31, стр. 38, пав. Б8</p>
+									</td>
+									<td class="office-table-item__metro">
+										<img class="office-table-item__img" src="assets/img/metro.svg" alt="Метро">
+										<p class="office-table-item__text font-lg font-weight-medium">Шоссе Энтузиастов</p>
+									</td>
+									<td class="office-table-item__maps">
+										<a href="#" class="office-table-item__link"><img src="assets/img/google-maps.svg" alt="гугл карты"></a>
+										<a href="#" class="office-table-item__link"><img src="assets/img/yandex-maps.svg" alt="гугл карты"></a>
+									</td>
+									<td class="office-table-item__mode">
+										<p class="office-table-item__work">Пн - Пт : 10:00 - 20:00 | Сб,<br> Вс: выходные</p>
+										<a href="#" class="office-table-item__link-btn">Подробнее</a>
+									</td>
+								</tr>
+								<tr class="office-table__row">
+									<td class="office-table-item__name">
+										<p class="office-table-item__title font-exlg font-weight-medium">Копицентр Шоссе Энтузиастов</p>
+										<p class="office-table-item__text font-lg font-weight-medium">г. Москва, Шоссе Энтузиастов, д. 31, стр. 38, пав. Б8</p>
+									</td>
+									<td class="office-table-item__metro">
+										<img class="office-table-item__img" src="assets/img/metro.svg" alt="Метро">
+										<p class="office-table-item__text font-lg font-weight-medium">Шоссе Энтузиастов</p>
+									</td>
+									<td class="office-table-item__maps">
+										<a href="#" class="office-table-item__link"><img src="assets/img/google-maps.svg" alt="гугл карты"></a>
+										<a href="#" class="office-table-item__link"><img src="assets/img/yandex-maps.svg" alt="гугл карты"></a>
+									</td>
+									<td class="office-table-item__mode">
+										<p class="office-table-item__work">Пн - Пт : 10:00 - 20:00 | Сб,<br> Вс: выходные</p>
+										<a href="#" class="office-table-item__link-btn">Подробнее</a>
+									</td>
+								</tr>
+								<tr class="office-table__row">
+									<td class="office-table-item__name">
+										<p class="office-table-item__title font-exlg font-weight-medium">Копицентр Шоссе Энтузиастов</p>
+										<p class="office-table-item__text font-lg font-weight-medium">г. Москва, Шоссе Энтузиастов, д. 31, стр. 38, пав. Б8</p>
+									</td>
+									<td class="office-table-item__metro">
+										<img class="office-table-item__img" src="assets/img/metro.svg" alt="Метро">
+										<p class="office-table-item__text font-lg font-weight-medium">Шоссе Энтузиастов</p>
+									</td>
+									<td class="office-table-item__maps">
+										<a href="#" class="office-table-item__link"><img src="assets/img/google-maps.svg" alt="гугл карты"></a>
+										<a href="#" class="office-table-item__link"><img src="assets/img/yandex-maps.svg" alt="гугл карты"></a>
+									</td>
+									<td class="office-table-item__mode">
+										<p class="office-table-item__work">Пн - Пт : 10:00 - 20:00 | Сб,<br> Вс: выходные</p>
+										<a href="#" class="office-table-item__link-btn">Подробнее</a>
+									</td>
+								</tr>
+								<tr class="office-table__row">
+									<td class="office-table-item__name">
+										<p class="office-table-item__title font-exlg font-weight-medium">Копицентр Шоссе Энтузиастов</p>
+										<p class="office-table-item__text font-lg font-weight-medium">г. Москва, Шоссе Энтузиастов, д. 31, стр. 38, пав. Б8</p>
+									</td>
+									<td class="office-table-item__metro">
+										<img class="office-table-item__img" src="assets/img/metro.svg" alt="Метро">
+										<p class="office-table-item__text font-lg font-weight-medium">Шоссе Энтузиастов</p>
+									</td>
+									<td class="office-table-item__maps">
+										<a href="#" class="office-table-item__link"><img src="assets/img/google-maps.svg" alt="гугл карты"></a>
+										<a href="#" class="office-table-item__link"><img src="assets/img/yandex-maps.svg" alt="гугл карты"></a>
+									</td>
+									<td class="office-table-item__mode">
+										<p class="office-table-item__work">Пн - Пт : 10:00 - 20:00 | Сб,<br> Вс: выходные</p>
+										<a href="#" class="office-table-item__link-btn">Подробнее</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="office-map">
+					<img src="assets/pic/google-map.png" alt="гугл карты">
+				</div>
+				<div class="office-metro">
+					<img src="assets/pic/map-metro.png" alt="схема метро">
+				</div>
+			</div>
+			<div class="office-contacts">
+				<table class="office-table-contact">
+					<thead class="office-table-contact-header">
+						<tr class="office-table-contact-header__row">
+							<th class="office-table-contact-header__item font-weight-semibold">Имя</th>
+							<th class="office-table-contact-header__item font-weight-semibold">Должность</th>
+							<th class="office-table-contact-header__item font-weight-semibold">E-mail</th>
+							<th class="office-table-contact-header__item font-weight-semibold">Моб. телефон</th>
+							<th class="office-table-contact-header__item font-weight-semibold">Внутр. номер</th>
+						</tr>
+					</thead>
+					<tbody class="office-table-contact-body">
+						<tr class="office-table-contact-body__row">
+							<td class="office-table-contact-body__item font-lg">Карева Полина</td>
+							<td class="office-table-contact-body__item font-lg">Руководитель отдела продаж</td>
+							<td class="office-table-contact-body__item font-lg">120@mdmprint.ru</td>
+							<td class="office-table-contact-body__item font-lg">+7 925 508-89-81</td>
+							<td class="office-table-contact-body__item font-lg">+7 (495) 256-1000 (доб. 120)</td>
+						</tr>
+						<tr class="office-table-contact-body__row">
+							<td class="office-table-contact-body__item font-lg">Карева Полина</td>
+							<td class="office-table-contact-body__item font-lg">Руководитель отдела продаж</td>
+							<td class="office-table-contact-body__item font-lg">120@mdmprint.ru</td>
+							<td class="office-table-contact-body__item font-lg">+7 925 508-89-81</td>
+							<td class="office-table-contact-body__item font-lg">+7 (495) 256-1000 (доб. 120)</td>
+						</tr>
+						<tr class="office-table-contact-body__row">
+							<td class="office-table-contact-body__item font-lg">Карева Полина</td>
+							<td class="office-table-contact-body__item font-lg">Руководитель отдела продаж</td>
+							<td class="office-table-contact-body__item font-lg">120@mdmprint.ru</td>
+							<td class="office-table-contact-body__item font-lg">+7 925 508-89-81</td>
+							<td class="office-table-contact-body__item font-lg">+7 (495) 256-1000 (доб. 120)</td>
+						</tr>
+						<tr class="office-table-contact-body__row">
+							<td class="office-table-contact-body__item font-lg">Карева Полина</td>
+							<td class="office-table-contact-body__item font-lg">Руководитель отдела продаж</td>
+							<td class="office-table-contact-body__item font-lg">120@mdmprint.ru</td>
+							<td class="office-table-contact-body__item font-lg">+7 925 508-89-81</td>
+							<td class="office-table-contact-body__item font-lg">+7 (495) 256-1000 (доб. 120)</td>
+						</tr>
+						<tr class="office-table-contact-body__row">
+							<td class="office-table-contact-body__item font-lg">Карева Полина</td>
+							<td class="office-table-contact-body__item font-lg">Руководитель отдела продаж</td>
+							<td class="office-table-contact-body__item font-lg">120@mdmprint.ru</td>
+							<td class="office-table-contact-body__item font-lg">+7 925 508-89-81</td>
+							<td class="office-table-contact-body__item font-lg">+7 (495) 256-1000 (доб. 120)</td>
+						</tr>
+						<tr class="office-table-contact-body__row">
+							<td class="office-table-contact-body__item font-lg">Карева Полина</td>
+							<td class="office-table-contact-body__item font-lg">Руководитель отдела продаж</td>
+							<td class="office-table-contact-body__item font-lg">120@mdmprint.ru</td>
+							<td class="office-table-contact-body__item font-lg">+7 925 508-89-81</td>
+							<td class="office-table-contact-body__item font-lg">+7 (495) 256-1000 (доб. 120)</td>
+						</tr>
+						<tr class="office-table-contact-body__row">
+							<td class="office-table-contact-body__item font-lg">Карева Полина</td>
+							<td class="office-table-contact-body__item font-lg">Руководитель отдела продаж</td>
+							<td class="office-table-contact-body__item font-lg">120@mdmprint.ru</td>
+							<td class="office-table-contact-body__item font-lg">+7 925 508-89-81</td>
+							<td class="office-table-contact-body__item font-lg">+7 (495) 256-1000 (доб. 120)</td>
+						</tr>
+						<tr class="office-table-contact-body__row">
+							<td class="office-table-contact-body__item font-lg">Карева Полина</td>
+							<td class="office-table-contact-body__item font-lg">Руководитель отдела продаж</td>
+							<td class="office-table-contact-body__item font-lg">120@mdmprint.ru</td>
+							<td class="office-table-contact-body__item font-lg">+7 925 508-89-81</td>
+							<td class="office-table-contact-body__item font-lg">+7 (495) 256-1000 (доб. 120)</td>
+						</tr>
+						<tr class="office-table-contact-body__row">
+							<td class="office-table-contact-body__item font-lg">Карева Полина</td>
+							<td class="office-table-contact-body__item font-lg">Руководитель отдела продаж</td>
+							<td class="office-table-contact-body__item font-lg">120@mdmprint.ru</td>
+							<td class="office-table-contact-body__item font-lg">+7 925 508-89-81</td>
+							<td class="office-table-contact-body__item font-lg">+7 (495) 256-1000 (доб. 120)</td>
+						</tr>
+						<tr class="office-table-contact-body__row">
+							<td class="office-table-contact-body__item font-lg">Карева Полина</td>
+							<td class="office-table-contact-body__item font-lg">Руководитель отдела продаж</td>
+							<td class="office-table-contact-body__item font-lg">120@mdmprint.ru</td>
+							<td class="office-table-contact-body__item font-lg">+7 925 508-89-81</td>
+							<td class="office-table-contact-body__item font-lg">+7 (495) 256-1000 (доб. 120)</td>
+						</tr>
+						<tr class="office-table-contact-body__row">
+							<td class="office-table-contact-body__item font-lg">Карева Полина</td>
+							<td class="office-table-contact-body__item font-lg">Руководитель отдела продаж</td>
+							<td class="office-table-contact-body__item font-lg">120@mdmprint.ru</td>
+							<td class="office-table-contact-body__item font-lg">+7 925 508-89-81</td>
+							<td class="office-table-contact-body__item font-lg">+7 (495) 256-1000 (доб. 120)</td>
+						</tr>
+						<tr class="office-table-contact-body__row">
+							<td class="office-table-contact-body__item font-lg">Карева Полина</td>
+							<td class="office-table-contact-body__item font-lg">Руководитель отдела продаж</td>
+							<td class="office-table-contact-body__item font-lg">120@mdmprint.ru</td>
+							<td class="office-table-contact-body__item font-lg">+7 925 508-89-81</td>
+							<td class="office-table-contact-body__item font-lg">+7 (495) 256-1000 (доб. 120)</td>
+						</tr>
+						<tr class="office-table-contact-body__row">
+							<td class="office-table-contact-body__item font-lg">Карева Полина</td>
+							<td class="office-table-contact-body__item font-lg">Руководитель отдела продаж</td>
+							<td class="office-table-contact-body__item font-lg">120@mdmprint.ru</td>
+							<td class="office-table-contact-body__item font-lg">+7 925 508-89-81</td>
+							<td class="office-table-contact-body__item font-lg">+7 (495) 256-1000 (доб. 120)</td>
+						</tr>
+						<tr class="office-table-contact-body__row">
+							<td class="office-table-contact-body__item font-lg">Карева Полина</td>
+							<td class="office-table-contact-body__item font-lg">Руководитель отдела продаж</td>
+							<td class="office-table-contact-body__item font-lg">120@mdmprint.ru</td>
+							<td class="office-table-contact-body__item font-lg">+7 925 508-89-81</td>
+							<td class="office-table-contact-body__item font-lg">+7 (495) 256-1000 (доб. 120)</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="office-documents">
+				<div class="office-documents-item">
+					<p class="office-documents-item__title font-weight-medium">Образец доверенности на получение заказа юридическим лицом</p>
+					<button class="office-documents-item__btn font-weight-medium">Скачать</button>
+				</div>
+				<div class="office-documents-item">
+					<p class="office-documents-item__title font-weight-medium">Реквизиты ООО «МДМПРИНТ»</p>
+					<button class="office-documents-item__btn font-weight-medium">Скачать</button>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+@@include('_footer.html')
